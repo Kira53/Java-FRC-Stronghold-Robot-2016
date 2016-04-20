@@ -23,7 +23,6 @@ public class Robot extends IterativeRobot {
 	public static final Arm arm = new Arm();
 	public static final DriveTrain drivetrain= new DriveTrain();
 	public static final Shooter shooter = new Shooter();
-	public static final Vision vision = new Vision();
 	public static OI oi;
 	
 	public DigitalInput limitSwitch = new DigitalInput(RobotMap.autoModeSwitch);
