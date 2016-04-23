@@ -45,7 +45,7 @@ public class OI {
 		
 	
 		// Commands
-		// Ramp's angle is controlled from within command AimRampWithJoystick
+		// Arm's angle is controlled from within command ControlArmWithJoystick
 		// DriveTrain is controlled from within command DriveWithJoystick
 		
 		sb.whileHeld(new SetFlywheels(Robot.shooter.SHOOT_SPEED)); // Speeds up flywheels to shoot
